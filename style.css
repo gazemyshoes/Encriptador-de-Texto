@@ -49,7 +49,7 @@ main{
     margin-top: 18px;
 }
 
-.botones{
+#botones{
     background-color: #e0e6ed;
     border-color: #c0e1ea;
     color: #0A3871;
@@ -110,7 +110,7 @@ main{
     position: relative;
 }
 
-.btn-final{
+.btn-copiar{
     background-color: #e0e6ed;
     border-color: #c0e1ea;
     color: #0A3871;
