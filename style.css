@@ -59,7 +59,7 @@ main{
     text-align: center;
 }
 
-.botones:active{
+#botones:active{
     background-color: #0A3871;
     color: #c0e1ea;
 }
