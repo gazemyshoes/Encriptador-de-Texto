@@ -7,12 +7,15 @@ h1{
 }
 
 *{
-    background-color: #c0e1ea;
     font-family: PT Sans Narrow;
     font-size: 25px;
     font-weight: 400;
     line-height: 150%;
     text-align: left;
+}
+
+body{
+    background-color: #c0e1ea;
 }
 
 main{
@@ -29,21 +32,13 @@ main{
     text-transform: lowercase;
     margin-top: 70px;
     resize: none;
+    background-color: inherit;
 }
 
 ::placeholder {color: #0A3871;}
     .text-area:focus{
         outline: none;
     }
-
-.text-output{
-    background: #dcf7fe;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 24px;
-    color: #0A3871;
-    resize: none;
-}
 
 .text-output:focus{
     outline: none;
@@ -74,13 +69,35 @@ main{
     font-size: 20px;
 }
 
+/*Sección de desencriptado*/
+
 .descrypt-section{
-    padding-right: 20px;
     display: block;
+    position: relative;
+    background-color: #dcf7fe;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+.contenedormunieco{
+    padding-top: 50px;
+    display: flex;
     position: relative;
 }
 
-.parrafo h3, p{
+.parrafo{
+    position: relative;
+}
+
+.parrafo h3{
+    text-align: center;
+    font-weight: bold;
+    color: #0A3871;
+    margin: 0;
+    font-size: 15px;
+}
+
+.parrafo p{
     text-align: center;
     color: #0A3871;
     margin: 0;
@@ -89,7 +106,8 @@ main{
 
 .btns-output{
     display: flex;
-    margin-top: 18px;
+    margin-top: 100px;
+    position: relative;
 }
 
 .btn-final{
@@ -100,9 +118,15 @@ main{
     cursor: pointer;
     width: 180px;
     text-align: center;
-    margin-top: 482px;
-    margin-left: 210px;
     position: absolute;
+    right: 75px;
+}
+
+.contenedor-salida{
+    position: relative;
+    display: flex;
+    bottom: 500px;
+    padding-left: 30px;
 }
 
 footer p{
@@ -114,5 +138,5 @@ footer p{
 .gh{
     width: 40px;
     cursor: pointer;
-    align-items: center;
+    margin-left: 49%;
 }
