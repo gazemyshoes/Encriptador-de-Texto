@@ -20,7 +20,7 @@ body{
 
 main{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-left: 180px;
     margin-right: 180px;
     justify-content: space-between;
@@ -39,10 +39,6 @@ main{
     .text-area:focus{
         outline: none;
     }
-
-.text-output:focus{
-    outline: none;
-}
 
 .btns{
     display: inline;
@@ -74,22 +70,17 @@ main{
 .descrypt-section{
     display: block;
     position: relative;
+    height: 550px;
     background-color: #dcf7fe;
     border-radius: 24px;
     box-sizing: border-box;
 }
 
-.contenedormunieco{
-    padding-top: 50px;
-    display: flex;
-    position: relative;
+.imagenParrafo{
+    margin-top: 25px;
 }
 
-.parrafo{
-    position: relative;
-}
-
-.parrafo h3{
+.imagenParrafo h3{
     text-align: center;
     font-weight: bold;
     color: #0A3871;
@@ -97,7 +88,7 @@ main{
     font-size: 15px;
 }
 
-.parrafo p{
+.imagenParrafo p{
     text-align: center;
     color: #0A3871;
     margin: 0;
@@ -127,6 +118,21 @@ main{
     display: flex;
     bottom: 500px;
     padding-left: 30px;
+}
+
+.texto-salida{
+    position: block;
+    color: #0A3871;
+    width: 279px;
+    height: 407px;
+    margin-top: 25px;
+    resize: none;
+    background-color: inherit;
+    border: none;
+}
+
+.texto-salida:focus{
+    outline: none;
 }
 
 footer p{
