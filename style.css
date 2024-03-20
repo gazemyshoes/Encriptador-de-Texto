@@ -146,3 +146,34 @@ footer p{
     cursor: pointer;
     margin-left: 49%;
 }
+
+@media (max-width: 480px){
+    main{
+        display: inline;
+    }
+
+    .text-area{
+        margin-top: 0;
+    }
+
+    .btns{
+        display: flex;
+    }
+
+    .btn-copiar{
+        right: 110px;
+    }
+
+    .texto-salida{
+        width: 100%;
+    }
+
+    .munieco{
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .gh{
+        margin-left: 46%;
+    }
+}
